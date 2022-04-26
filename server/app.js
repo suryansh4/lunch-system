@@ -10,7 +10,7 @@ client.connect( (err) => {
   
   // perform actions on the collection object
   if (err) throw err;
-  console.log("connection");
+  console.log("connection i established");
   client.close();
 });
 
